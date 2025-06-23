@@ -1,0 +1,21 @@
+{
+	"remotePath": "./httpdocs/wp-content/plugins/ultimate-3d-model-viewer",
+	"host": "https://www.maxfinanz.de",
+	"username": "maxfinanz_de_admin",
+	"password": "MaxFinanzFTPPW001!",
+	"port": 21,
+	"secure": false,
+	"protocol": "ftp",
+	"uploadOnSave": false,
+	"passive": false,
+	"debug": false,
+	"privateKeyPath": null,
+	"passphrase": null,
+	"agent": null,
+	"allow": [],
+	"ignore": ["\\.vscode", "\\.git", "\\.DS_Store"],
+	"generatedFiles": {
+		"extensionsToInclude": [""],
+		"path": ""
+	}
+}

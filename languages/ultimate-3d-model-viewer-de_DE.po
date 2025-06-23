@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate 3D Model Viewer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ultimate-3d-model-"
+"viewer\n"
+"POT-Creation-Date: 2025-06-23T10:04:54+00:00\n"
+"PO-Revision-Date: 2025-06-23 12:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: ultimate-3d-model-viewer\n"
+
+#. Plugin Name of the plugin
+#: ultimate-3d-model-viewer.php
+#: public/ultimate-3d-model-viewer-elementor.php:10
+msgid "Ultimate 3D Model Viewer"
+msgstr "Ultimate 3D Model Viewer"
+
+#. Description of the plugin
+#: ultimate-3d-model-viewer.php
+msgid ""
+"This plugin provides a custom widget for Elementor that allows to display 3D "
+"model und customize the settings."
+msgstr ""
+"Dieses Plugin stellt ein Elementor Widget zur Verfügung, welches es "
+"ermöglicht Ihre 3D Modelle auf Ihrer Webseite anzuzeigen und anzupassen."
+
+#. Author of the plugin
+#: ultimate-3d-model-viewer.php
+msgid "Alexander Dort GmbH"
+msgstr "Alexander Dort GmbH"
+
+#. Author URI of the plugin
+#: ultimate-3d-model-viewer.php
+msgid "https://www.alexanderdort.com"
+msgstr "https://www.alexanderdort.com"
+
+#: admin/ultimate-3d-model-viewer-admin.php:134
+#: public/ultimate-3d-model-viewer-public.php:117
+msgid "3D"
+msgstr "3D"
+
+#: public/ultimate-3d-model-viewer-elementor.php:48 build/index.js:1
+#: src/edit.js:26
+msgid "src"
+msgstr "src"
+
+#: public/ultimate-3d-model-viewer-elementor.php:57
+msgid "3D Model File"
+msgstr "3D Model Datei"
+
+#: public/ultimate-3d-model-viewer-elementor.php:60 build/index.js:1
+#: src/edit.js:37
+msgid "Select a .glb, .fbx or .obj file"
+msgstr "Wählen Sie eine .glb, .fbx oder .obj Datei"
+
+#: public/ultimate-3d-model-viewer-elementor.php:70
+msgid "poster"
+msgstr "Ladebild"
+
+#: public/ultimate-3d-model-viewer-elementor.php:79
+msgid "Poster Image"
+msgstr "Ladebild"
+
+#: public/ultimate-3d-model-viewer-elementor.php:82
+msgid "Select a poster image (JPG or PNG)"
+msgstr ""
+"Wählen Sie ein Bild, welches im Ladevorgang angezeigt werden soll (JPG oder "
+"PNG)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:92 build/index.js:1
+#: src/edit.js:66
+msgid "environment"
+msgstr "Umgebung"
+
+#: public/ultimate-3d-model-viewer-elementor.php:101
+msgid "Environment HDR"
+msgstr "Umgebungsbild"
+
+#: public/ultimate-3d-model-viewer-elementor.php:103 build/index.js:1
+#: src/edit.js:77
+msgid "Select an .hdr environment image"
+msgstr ""
+"Wählen Sie ein Umgebungsbild, welches sich auf die Lichtreflexionen Ihres "
+"Models auswirken soll (.hdr)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:113 build/index.js:1
+#: src/edit.js:86
+msgid "skybox"
+msgstr "Hintergrund"
+
+#: public/ultimate-3d-model-viewer-elementor.php:122
+msgid "Skybox Image"
+msgstr "Hintergrundbild"
+
+#: public/ultimate-3d-model-viewer-elementor.php:124 build/index.js:1
+#: src/edit.js:97
+msgid "Select a skybox image (JPG or PNG)"
+msgstr "Wählen Sie ein Hintergrundbild (JPG oder PNG)."
+
+#: public/ultimate-3d-model-viewer-elementor.php:133
+#: public/ultimate-3d-model-viewer-elementor.php:141 build/index.js:1
+#: src/edit.js:106 src/edit.js:108
+msgid "tone mapping"
+msgstr "Tone Mapping"
+
+#: public/ultimate-3d-model-viewer-elementor.php:145
+msgid "neutral"
+msgstr "neutral"
+
+#: public/ultimate-3d-model-viewer-elementor.php:146
+msgid "aces"
+msgstr "aces"
+
+#: public/ultimate-3d-model-viewer-elementor.php:147
+msgid "agx"
+msgstr "agx"
+
+#: public/ultimate-3d-model-viewer-elementor.php:148
+msgid "reinhard"
+msgstr "reinhard"
+
+#: public/ultimate-3d-model-viewer-elementor.php:149
+msgid "cineon"
+msgstr "cineon"
+
+#: public/ultimate-3d-model-viewer-elementor.php:150
+msgid "linear"
+msgstr "linear"
+
+#: public/ultimate-3d-model-viewer-elementor.php:151
+msgid "none"
+msgstr "None"
+
+#: public/ultimate-3d-model-viewer-elementor.php:164
+#: public/ultimate-3d-model-viewer-elementor.php:173 build/index.js:1
+#: src/edit.js:125 src/edit.js:127
+msgid "exposure"
+msgstr "Belichtung"
+
+#: public/ultimate-3d-model-viewer-elementor.php:192 build/index.js:1
+#: src/edit.js:138
+msgid "shadows"
+msgstr "Schatten"
+
+#: public/ultimate-3d-model-viewer-elementor.php:200 build/index.js:1
+#: src/edit.js:140
+msgid "shadow intensity"
+msgstr "Schattenintensität"
+
+#: public/ultimate-3d-model-viewer-elementor.php:218 build/index.js:1
+#: src/edit.js:149
+msgid "shadow softness"
+msgstr "Schattenweichheit"
+
+#: public/ultimate-3d-model-viewer-elementor.php:237 build/index.js:1
+#: src/edit.js:160
+msgid "camera options"
+msgstr "Kamera Optionen"
+
+#: public/ultimate-3d-model-viewer-elementor.php:246 build/index.js:1
+#: src/edit.js:162
+msgid "Camera Orbit"
+msgstr "Kameraumlaufbahn"
+
+#: public/ultimate-3d-model-viewer-elementor.php:249 build/index.js:1
+#: src/edit.js:163
+msgid "Enter 3 value camera orbit (e.g., 0deg 75deg 105%)"
+msgstr "Geben Sie 3 Werte für die Kameraumlaufbahn an (z.B 0deg 75deg 105%)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:257 build/index.js:1
+#: src/edit.js:169
+msgid "Max Camera Orbit"
+msgstr "Maximale Kameraumlaufbahn"
+
+#: public/ultimate-3d-model-viewer-elementor.php:260 build/index.js:1
+#: src/edit.js:170
+msgid "Enter 3 value maximum camera orbit (e.g., Infinity 180deg auto)"
+msgstr ""
+"Geben Sie 3 Werte für die maximale Kameraumlaufbahn an (z.B Infiniti 180deg "
+"auto)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:268 build/index.js:1
+#: src/edit.js:176
+msgid "Min Camera Orbit"
+msgstr "Minimale Kameraumlaufbahn"
+
+#: public/ultimate-3d-model-viewer-elementor.php:271 build/index.js:1
+#: src/edit.js:177
+msgid "Enter 3 value minimum camera orbit (e.g., -Infinity 0deg auto)"
+msgstr ""
+"Geben Sie 3 Werte für die minimale Kameraumlaufbahn an (z.B -Infinity 0deg "
+"auto)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:279 build/index.js:1
+#: src/edit.js:183
+msgid "Camera Target"
+msgstr "Kamera Ziel"
+
+#: public/ultimate-3d-model-viewer-elementor.php:282 build/index.js:1
+#: src/edit.js:184
+msgid "Enter 3 value camera target (e.g., 0m 1.5m -0.5m)"
+msgstr "Geben Sie 3 Werte für das Kamera Ziel an (z.B 0m 1.5m -0.5m)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:291 build/index.js:1
+#: src/edit.js:190
+msgid "Field of view"
+msgstr "Sichtfeld"
+
+#: public/ultimate-3d-model-viewer-elementor.php:295 build/index.js:1
+#: src/edit.js:191
+msgid "Enter field of view (e.g., 30deg)"
+msgstr "Geben Sie den Wert des Sichtfeldes an (z.B 30deg)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:303 build/index.js:1
+#: src/edit.js:197
+msgid "Max Field of view"
+msgstr "Maximales Sichtfeld"
+
+#: public/ultimate-3d-model-viewer-elementor.php:307 build/index.js:1
+#: src/edit.js:198
+msgid "Enter maximum field of view (e.g., 30deg)"
+msgstr "Geben Sie den maximalen Wert des Sichtfeldes an (z.B 30deg)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:316 build/index.js:1
+#: src/edit.js:204
+msgid "Min Field of view"
+msgstr "Minimales Sichtfeld"
+
+#: public/ultimate-3d-model-viewer-elementor.php:320 build/index.js:1
+#: src/edit.js:205
+msgid "Enter minimum field of view (e.g., 25deg)"
+msgstr "Geben Sie den minimalen Wert des Sichtfeldes an (z.B 25deg)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:329 build/index.js:1
+#: src/edit.js:213
+msgid "loading"
+msgstr "Lade Optionen"
+
+#: public/ultimate-3d-model-viewer-elementor.php:337 build/index.js:1
+#: src/edit.js:215
+msgid "loading strategy"
+msgstr "Ladestrategie"
+
+#: public/ultimate-3d-model-viewer-elementor.php:341
+msgid "auto"
+msgstr "auto"
+
+#: public/ultimate-3d-model-viewer-elementor.php:342
+msgid "lazy"
+msgstr "lazy"
+
+#: public/ultimate-3d-model-viewer-elementor.php:343
+msgid "eager"
+msgstr "eager"
+
+#: public/ultimate-3d-model-viewer-elementor.php:357 build/index.js:1
+#: src/edit.js:228
+msgid "auto rotate"
+msgstr "Rotation"
+
+#: public/ultimate-3d-model-viewer-elementor.php:365 build/index.js:1
+#: src/edit.js:230
+msgid "Auto rotation"
+msgstr "Automatische Rotation"
+
+#: public/ultimate-3d-model-viewer-elementor.php:367
+#: public/ultimate-3d-model-viewer-elementor.php:389
+msgid "On"
+msgstr "An"
+
+#: public/ultimate-3d-model-viewer-elementor.php:368
+#: public/ultimate-3d-model-viewer-elementor.php:390
+msgid "Off"
+msgstr "Aus"
+
+#: public/ultimate-3d-model-viewer-elementor.php:379 build/index.js:1
+#: src/edit.js:238
+msgid "augmented reality"
+msgstr "Augmented Reality"
+
+#: public/ultimate-3d-model-viewer-elementor.php:387 build/index.js:1
+#: src/edit.js:240
+msgid "Enable augmented reality"
+msgstr "Augmented Reality aktivieren"
+
+#: public/ultimate-3d-model-viewer-elementor.php:400
+msgid "IOS src model"
+msgstr "IOS Modell"
+
+#: public/ultimate-3d-model-viewer-elementor.php:403 build/index.js:1
+#: src/edit.js:256
+msgid "Select a special ios usdz file for the model in ar mode"
+msgstr ""
+"Wählen Sie eine spezielle usdz Datei, welche im AR-Modus unter IOS Geräten "
+"angezeigt werden soll"
+
+#: public/ultimate-3d-model-viewer-elementor.php:416
+msgid "model viewer"
+msgstr "Model Viewer"
+
+#: public/ultimate-3d-model-viewer-elementor.php:425
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: public/ultimate-3d-model-viewer-elementor.php:437
+msgid "Width"
+msgstr "Breite"
+
+#: public/ultimate-3d-model-viewer-elementor.php:456
+msgid "Height"
+msgstr "Höhe"
+
+#: build/index.js:1 src/edit.js:46
+msgctxt "block poster"
+msgid "poster"
+msgstr "Ladebild"
+
+#: build/index.js:1 src/edit.js:57
+msgctxt "block poster hint"
+msgid "Select a poster image (JPG or PNG)"
+msgstr ""
+"Wählen Sie ein Bild, welches im Ladevorgang angezeigt werden soll (JPG oder "
+"PNG)"
+
+#: build/block.json src/block.json
+msgctxt "block title"
+msgid "Ultimate 3D Model Viewer"
+msgstr "Ultimate 3D Model Viewer"
+
+#: build/block.json src/block.json
+msgctxt "block description"
+msgid ""
+"This Block provides the option to insert 3D models on your webpage as well "
+"as customize them via different options"
+msgstr ""
+"Dieser Block ermöglicht die Einbindung Ihrer 3D Modelle auf Ihrer Webseite "
+"und diese ebenfalls durch verschiedene Optionen anzupassen"
+
+#: build/block.json src/block.json
+msgctxt "block keyword"
+msgid "3D"
+msgstr "3D"
+
+#: build/block.json src/block.json
+msgctxt "block keyword"
+msgid "3d"
+msgstr "3d"
+
+#: build/block.json src/block.json
+msgctxt "block keyword"
+msgid "model-viewer"
+msgstr "Model Viewer"
+
+#: build/block.json src/block.json
+msgctxt "block keyword"
+msgid "model"
+msgstr "Modell"
+
+#: build/block.json src/block.json
+msgctxt "block keyword"
+msgid "viewer"
+msgstr "Viewer"
+
+#: build/block.json src/block.json
+msgctxt "block keyword"
+msgid "ultimate"
+msgstr "Ultimate"
+
+#~ msgid "select_src"
+#~ msgstr "Wählen Sie eine .glb, .fbx, oder .obj Datei"
+
+#~ msgid "Select 3D Model File"
+#~ msgstr "3D Model Datei"
+
+#~ msgctxt "block poster desc"
+#~ msgid "Select a poster image (JPG or PNG)"
+#~ msgstr ""
+#~ "Wählen Sie ein Bild, welches im Ladevorgang angezeigt werden soll (JPG "
+#~ "oder PNG)"
+
+#~ msgid "block poster"
+#~ msgstr "Ladebild"

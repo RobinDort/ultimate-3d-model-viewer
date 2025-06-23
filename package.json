@@ -1,0 +1,23 @@
+{
+	"name": "ultimate-3d-model-viewer",
+	"version": "1.0.0",
+	"description": "The plugin provides functionality for the Gutenberg editor as well as Elementor to display custom 3D Models on your website",
+	"main": "./src/blocks/ultimate-3d-model-viewer/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"make-pot": "wp i18n make-pot . languages/ultimate-3d-model-viewer.pot --exclude=vendor,node_modules,tests --domain=ultimate-3d-model-viewer",
+		"make-json": "wp i18n make-json ./languages/ --no-purge"
+	},
+	"author": "Alexander Dort GmbH",
+	"license": "ISC",
+	"dependencies": {
+		"@wordpress/block-editor": "^14.20.0",
+		"@wordpress/components": "^29.11.0",
+		"@wordpress/i18n": "^5.25.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.18.0"
+	}
+}

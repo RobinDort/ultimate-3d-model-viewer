@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate 3D Model Viewer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ultimate-3d-model-viewer\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-16T13:20:51+00:00\n"
+"PO-Revision-Date: 2025-06-17 08:37+0200\n"
+"Language: en\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: ultimate-3d-model-viewer\n"
+
+#. Plugin Name of the plugin
+#: ultimate-3d-model-viewer.php
+#: public/ultimate-3d-model-viewer-elementor.php:10
+msgid "Ultimate 3D Model Viewer"
+msgstr "Ultimate 3D Model Viewer"
+
+#. Description of the plugin
+#: ultimate-3d-model-viewer.php
+msgid "This plugin provides a custom widget for Elementor that allows to display 3D model und customize the settings."
+msgstr "This plugin provides a custom widget for Elementor that allows to display 3D models and customize the settings"
+
+#. Author of the plugin
+#: ultimate-3d-model-viewer.php
+msgid "Alexander Dort GmbH"
+msgstr "Alexander Dort GmbH"
+
+#. Author URI of the plugin
+#: ultimate-3d-model-viewer.php
+msgid "https://www.alexanderdort.com"
+msgstr "https://www.alexanderdort.com/en"
+
+#: public/ultimate-3d-model-viewer-elementor.php:48
+msgid "src"
+msgstr "SRC"
+
+#: public/ultimate-3d-model-viewer-elementor.php:57
+msgid "3D Model File"
+msgstr "3D Model File"
+
+#: public/ultimate-3d-model-viewer-elementor.php:60
+msgid "Select a .glb, .fbx or .obj file"
+msgstr "Select a .glb, .fbx or .obj file"
+
+#: public/ultimate-3d-model-viewer-elementor.php:70
+msgid "poster"
+msgstr "Poster"
+
+#: public/ultimate-3d-model-viewer-elementor.php:79
+msgid "Poster Image"
+msgstr "Poster Image"
+
+#: public/ultimate-3d-model-viewer-elementor.php:82
+msgid "Select a poster image (JPG or PNG)"
+msgstr "Select a poster image that will be shown when the model is loading (JPG or PNG)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:92
+msgid "environment"
+msgstr "Environment"
+
+#: public/ultimate-3d-model-viewer-elementor.php:101
+msgid "Environment HDR"
+msgstr "Environment HDR"
+
+#: public/ultimate-3d-model-viewer-elementor.php:103
+msgid "Select an .hdr environment image"
+msgstr "Select an .hdr environment image that will effect the lighting effects on your model"
+
+#: public/ultimate-3d-model-viewer-elementor.php:113
+msgid "skybox"
+msgstr "Skybox"
+
+#: public/ultimate-3d-model-viewer-elementor.php:122
+msgid "Skybox Image"
+msgstr "Skybox Image"
+
+#: public/ultimate-3d-model-viewer-elementor.php:124
+msgid "Select a skybox image (JPG or PNG)"
+msgstr "Select a skybox image that will be placed as background for your model (JPG or PNG)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:133
+#: public/ultimate-3d-model-viewer-elementor.php:141
+msgid "tone mapping"
+msgstr "Tone mapping"
+
+#: public/ultimate-3d-model-viewer-elementor.php:145
+msgid "neutral"
+msgstr "neutral"
+
+#: public/ultimate-3d-model-viewer-elementor.php:146
+msgid "aces"
+msgstr "aces"
+
+#: public/ultimate-3d-model-viewer-elementor.php:147
+msgid "agx"
+msgstr "agx"
+
+#: public/ultimate-3d-model-viewer-elementor.php:148
+msgid "reinhard"
+msgstr "reinhard"
+
+#: public/ultimate-3d-model-viewer-elementor.php:149
+msgid "cineon"
+msgstr "cineon"
+
+#: public/ultimate-3d-model-viewer-elementor.php:150
+msgid "linear"
+msgstr "linear"
+
+#: public/ultimate-3d-model-viewer-elementor.php:151
+msgid "none"
+msgstr "none"
+
+#: public/ultimate-3d-model-viewer-elementor.php:164
+#: public/ultimate-3d-model-viewer-elementor.php:173
+msgid "exposure"
+msgstr "Exposure"
+
+#: public/ultimate-3d-model-viewer-elementor.php:192
+msgid "shadows"
+msgstr "Shadows"
+
+#: public/ultimate-3d-model-viewer-elementor.php:200
+msgid "shadow intensity"
+msgstr "Shadow Intensity"
+
+#: public/ultimate-3d-model-viewer-elementor.php:218
+msgid "shadow softness"
+msgstr "Shadow Softness"
+
+#: public/ultimate-3d-model-viewer-elementor.php:237
+msgid "camera options"
+msgstr "Camera options"
+
+#: public/ultimate-3d-model-viewer-elementor.php:246
+msgid "Camera Orbit"
+msgstr "Camera Orbit"
+
+#: public/ultimate-3d-model-viewer-elementor.php:249
+msgid "Enter 3 value camera orbit (e.g., 0deg 75deg 105%)"
+msgstr "Enter a 3 value camera orbit (e.g., 0deg 75deg 105%)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:257
+msgid "Max Camera Orbit"
+msgstr "Max Camera Orbit"
+
+#: public/ultimate-3d-model-viewer-elementor.php:260
+msgid "Enter 3 value maximum camera orbit (e.g., Infinity 180deg auto)"
+msgstr "Enter a 3 value maximum camera orbit (e.g., Infinity 180deg auto)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:268
+msgid "Min Camera Orbit"
+msgstr "Min Camera Orbit"
+
+#: public/ultimate-3d-model-viewer-elementor.php:271
+msgid "Enter 3 value minimum camera orbit (e.g., -Infinity 0deg auto)"
+msgstr "Enter a 3 value minimum camera orbit (e.g., -Infinity 0deg auto)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:279
+msgid "Camera Target"
+msgstr "Camera Target"
+
+#: public/ultimate-3d-model-viewer-elementor.php:282
+msgid "Enter 3 value camera target (e.g., 0m 1.5m -0.5m)"
+msgstr "Enter a 3 value camera target (e.g., 0m 1.5m -0.5m)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:291
+msgid "Field of view"
+msgstr "Field of view"
+
+#: public/ultimate-3d-model-viewer-elementor.php:295
+msgid "Enter field of view (e.g., 30deg)"
+msgstr "Enter a field of view (e.g., 30deg)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:303
+msgid "Max Field of view"
+msgstr "Maximum Field of view"
+
+#: public/ultimate-3d-model-viewer-elementor.php:307
+msgid "Enter maximum field of view (e.g., 30deg)"
+msgstr "Enter a maximum field of view (e.g., 30deg)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:316
+msgid "Min Field of view"
+msgstr "Minimum Field of view"
+
+#: public/ultimate-3d-model-viewer-elementor.php:320
+msgid "Enter minimum field of view (e.g., 25deg)"
+msgstr "Enter a minimum field of view (e.g., 25deg)"
+
+#: public/ultimate-3d-model-viewer-elementor.php:329
+msgid "loading"
+msgstr "Loading options"
+
+#: public/ultimate-3d-model-viewer-elementor.php:337
+msgid "loading strategy"
+msgstr "loading strategy"
+
+#: public/ultimate-3d-model-viewer-elementor.php:341
+msgid "auto"
+msgstr "auto"
+
+#: public/ultimate-3d-model-viewer-elementor.php:342
+msgid "lazy"
+msgstr "lazy"
+
+#: public/ultimate-3d-model-viewer-elementor.php:343
+msgid "eager"
+msgstr "eager"
+
+#: public/ultimate-3d-model-viewer-elementor.php:357
+msgid "auto rotate"
+msgstr "Rotate options"
+
+#: public/ultimate-3d-model-viewer-elementor.php:365
+msgid "Auto rotation"
+msgstr "Auto rotation"
+
+#: public/ultimate-3d-model-viewer-elementor.php:367
+#: public/ultimate-3d-model-viewer-elementor.php:389
+msgid "On"
+msgstr "On"
+
+#: public/ultimate-3d-model-viewer-elementor.php:368
+#: public/ultimate-3d-model-viewer-elementor.php:390
+msgid "Off"
+msgstr "Off"
+
+#: public/ultimate-3d-model-viewer-elementor.php:379
+msgid "augmented reality"
+msgstr "Augmented reality"
+
+#: public/ultimate-3d-model-viewer-elementor.php:387
+msgid "Enable augmented reality"
+msgstr "Enable augmented reality"
+
+#: public/ultimate-3d-model-viewer-elementor.php:400
+msgid "IOS src model"
+msgstr "IOS model"
+
+#: public/ultimate-3d-model-viewer-elementor.php:403
+msgid "Select a special ios usdz file for the model in ar mode"
+msgstr "Select a special iOS usdz file for the model that will be used in ar mode"
+
+#: public/ultimate-3d-model-viewer-elementor.php:416
+msgid "model viewer"
+msgstr "Model viewer"
+
+#: public/ultimate-3d-model-viewer-elementor.php:425
+msgid "Background Color"
+msgstr "Background Color"
+
+#: public/ultimate-3d-model-viewer-elementor.php:437
+msgid "Width"
+msgstr "Width"
+
+#: public/ultimate-3d-model-viewer-elementor.php:456
+msgid "Height"
+msgstr "Height"
+
+#: public/ultimate-3d-model-viewer-public.php:114
+msgid "3D"
+msgstr "3D"

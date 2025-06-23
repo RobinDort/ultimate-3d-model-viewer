@@ -1,0 +1,97 @@
+{
+  "apiVersion": 3,
+  "name": "ultimate-3d-model-viewer/block",
+  "icon": "games",
+  "title": "Ultimate 3D Model Viewer",
+  "category": "3d",
+  "description": "This Block provides the option to insert 3D models on your webpage as well as customize them via different options",
+  "keywords": [
+    "3D",
+    "3d",
+    "model-viewer",
+    "model",
+    "viewer",
+    "ultimate"
+  ],
+  "textdomain": "ultimate-3d-model-viewer",
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "poster": {
+      "type": "string"
+    },
+    "environment": {
+      "type": "string"
+    },
+    "skybox": {
+      "type": "string"
+    },
+    "toneMapping": {
+      "type": "string",
+      "default": "neutral"
+    },
+    "exposure": {
+      "type": "number",
+      "default": 1.5
+    },
+    "shadowIntensity": {
+      "type": "number",
+      "default": 0
+    },
+    "shadowSoftness": {
+      "type": "number",
+      "default": 0
+    },
+    "cameraOrbit": {
+      "type": "string"
+    },
+    "maxCameraOrbit": {
+      "type": "string"
+    },
+    "minCameraOrbit": {
+      "type": "string"
+    },
+    "cameraTarget": {
+      "type": "string"
+    },
+    "fieldOfView": {
+      "type": "string",
+      "default": "auto"
+    },
+    "maxFieldOfView": {
+      "type": "string",
+      "default": "auto"
+    },
+    "minFieldOfView": {
+      "type": "string",
+      "default": "25deg"
+    },
+    "loading": {
+      "type": "string",
+      "default": "auto"
+    },
+    "autoRotate": {
+      "type": "boolean",
+      "default": false
+    },
+    "ar": {
+      "type": "boolean",
+      "default": false
+    },
+    "iosSrc": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "color": {
+      "background": true
+    },
+    "dimensions": {
+      "minHeight": true,
+      "padding": true,
+      "margin": true
+    }
+  },
+  "editorScript": "file:./index.js"
+}
