@@ -12,12 +12,13 @@
 	},
 	"author": "Alexander Dort GmbH",
 	"license": "ISC",
-	"dependencies": {
-		"@wordpress/block-editor": "^14.20.0",
-		"@wordpress/components": "^29.11.0",
-		"@wordpress/i18n": "^5.25.0"
-	},
 	"devDependencies": {
 		"@wordpress/scripts": "^30.18.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.20.0",
+		"@wordpress/blocks": "^14.15.0",
+		"@wordpress/components": "^29.11.0",
+		"@wordpress/i18n": "^5.25.0"
 	}
 }

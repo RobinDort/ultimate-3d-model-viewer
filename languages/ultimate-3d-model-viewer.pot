@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-06-23T10:04:54+00:00\n"
+"POT-Creation-Date: 2025-06-26T10:19:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ultimate-3d-model-viewer\n"
@@ -35,14 +35,12 @@ msgstr ""
 msgid "https://www.alexanderdort.com"
 msgstr ""
 
-#: admin/ultimate-3d-model-viewer-admin.php:134
+#: admin/ultimate-3d-model-viewer-admin.php:122
 #: public/ultimate-3d-model-viewer-public.php:117
 msgid "3D"
 msgstr ""
 
 #: public/ultimate-3d-model-viewer-elementor.php:48
-#: build/index.js:1
-#: src/edit.js:26
 msgid "src"
 msgstr ""
 
@@ -334,6 +332,11 @@ msgstr ""
 
 #: public/ultimate-3d-model-viewer-elementor.php:456
 msgid "Height"
+msgstr ""
+
+#: build/index.js:1
+#: src/edit.js:26
+msgid "srcJS"
 msgstr ""
 
 #: build/index.js:1

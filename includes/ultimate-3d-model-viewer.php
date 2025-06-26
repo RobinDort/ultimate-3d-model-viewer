@@ -158,7 +158,6 @@ class Ultimate_3D_Model_Viewer {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-		$this->loader->add_action( 'init', $plugin_admin, 'register_model_viewer_gutenberg_block');
 		$this->loader->add_filter( 'upload_mimes', $plugin_admin, 'allow_custom_mimes');
 		$this->loader->add_filter( 'block_categories_all', $plugin_admin, 'add_custom_gutenberg_category', 10,2);
 	}
@@ -176,7 +175,7 @@ class Ultimate_3D_Model_Viewer {
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-		//$this->loader->add_action( 'init', $plugin_public, 'set_gutenberg_block_script_translations' );
+		$this->loader->add_action( 'init', $plugin_public, 'register_model_viewer_gutenberg_block');
 		$this->loader->add_action( 'elementor/elements/categories_registered', $plugin_public, 'add_elementor_widget_categories');
 		$this->loader->add_action( 'elementor/widgets/register', $plugin_public, 'register_model_viewer_elementor_widget');
 	}

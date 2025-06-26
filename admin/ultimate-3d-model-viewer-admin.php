@@ -113,24 +113,6 @@ class Ultimate_3D_Model_Viewer_Admin {
 	}
 
 
-	public function register_model_viewer_gutenberg_block() {
-		wp_register_script(
-			'ultimate-3d-model-viewer-block-editor',
-			plugins_url('build/index.js', __FILE__),
-			['wp-blocks', 'wp-element', 'wp-editor', 'wp-i18n'],
-			$this->version,
-			false
-		);
-
-		wp_set_script_translations(
-			'ultimate-3d-model-viewer-block-editor',
-			'ultimate-3d-model-viewer',
-			plugin_dir_path(__FILE__) . 'languages'
-		);
-
-		register_block_type(plugin_dir_path(dirname(__FILE__)) . 'build');
-	}
-
 	public function add_custom_gutenberg_category($categories, $post) {
 		return array_merge(
 			$categories,
